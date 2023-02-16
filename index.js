@@ -7,6 +7,10 @@ const app = express()
 
 app.get("/", (req, res) => {
     res.send("This is the homepage")
+});
+
+app.get("/about", (req, res) => {
+    res.send("This is About Me Page")
 })
 
 app.listen(port, () => {
