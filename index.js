@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/Contact", (req, res) => {
-    res.send("phone_Num, address, email")
+    res.send("WhatsApp, twitter, instagram")
 })
 
 app.listen(port, () => {
