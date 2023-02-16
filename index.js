@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/faqpage", (req, res) => {
-    res.send("1. Kileleyi?, 2.How do i debug, 3.Is this playing?")
+    res.send("1. Is this life?, 2.How do I debug, 3.Is this playing?")
 })
 
 app.listen(port, () => {
