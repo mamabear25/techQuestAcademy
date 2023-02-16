@@ -9,8 +9,8 @@ app.get("/", (req, res) => {
     res.send("This is the homepage")
 })
 
-app.get("/Contact Us", (req, res) => {
-    res.send("phone Num", "address", "email")
+app.get("/Contact", (req, res) => {
+    res.send("phone_Num", "address", "email")
 })
 
 app.listen(port, () => {
