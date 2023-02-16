@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/location", (req, res) => {
-    res.send("Lagos Nigeria")
+    res.send("Ontario Canada")
 })
 app.listen(port, () => {
     console.log(`server is listening on http://localhost:${port}`)
