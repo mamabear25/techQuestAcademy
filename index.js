@@ -7,6 +7,10 @@ const app = express()
 
 app.get("/", (req, res) => {
     res.send("This is the homepage")
+});
+
+app.get("/about", (req, res) => {
+    res.send("About page")
 })
 
 app.get("/Contact", (req, res) => {
